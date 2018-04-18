@@ -6,3 +6,6 @@ C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\
 C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.csproj.CoreCompileInputs.cache
 C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.AssemblyInfoInputs.cache
 C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.AssemblyInfo.cs
+C:\Users\epicodus\desktop\CarmenSandiego\CarmenSandiego\bin\Debug\netcoreapp1.1\CarmenSandiego.pdb
+C:\Users\epicodus\desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.dll
+C:\Users\epicodus\desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.pdb
