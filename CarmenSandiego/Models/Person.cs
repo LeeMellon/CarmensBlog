@@ -14,8 +14,8 @@ namespace CarmenSandiego.Models
         [Key]
         public int PersonId { get; set; }
         public string Name { get; set; }
-        public Experience Experience { get; set; }
-        public int ExperienceId { get; set; }
         public string Description { get; set; }
+        public virtual Experience Experience { get; set; }
+        public int ExperienceId { get; set; }
     }
 }

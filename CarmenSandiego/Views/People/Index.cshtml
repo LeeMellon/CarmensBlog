@@ -1,0 +1,43 @@
+﻿@model IEnumerable<CarmenSandiego.Models.Person>
+
+@{
+    ViewData["Title"] = "Person - Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>@Html.ActionLink("Add New Person", "Create")</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Experience.Name)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var listItem in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => listItem.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => listItem.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => listItem.Experience.Name)
+            </td>
+           <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = listItem.PersonId }) |
+                    @Html.ActionLink("Details", "Details", new { id = listItem.PersonId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = listItem.PersonId })
+                </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,25 @@
+﻿@model CarmenSandiego.Models.Person
+
+@{
+    ViewData["Title"] = "Person - Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add a new person</h2>
+<hr />
+
+@using (Html.BeginForm(new { @class = "form-group" }))
+{
+    @Html.LabelFor(model => model.Name, new { @class = "form-control" })
+    @Html.EditorFor(model => model.Name)
+
+    @Html.LabelFor(model => model.Description, new { @class = "form-control" })
+    @Html.EditorFor(model => model.Description)
+
+    @Html.LabelFor(model => model.ExperienceId)
+    @Html.DropDownList("ExperienceId")
+
+    <input type="submit" value="Create" class="btn btn-default" />
+}
+
+@Html.ActionLink("Back to List", "Index")

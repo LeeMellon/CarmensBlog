@@ -1,0 +1,25 @@
+﻿@model CarmenSandiego.Models.Experience
+
+@{
+    ViewData["Title"] = "Experience - Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add a new experience</h2>
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name, new { @class = "form-control" })
+    @Html.EditorFor(model => model.Name)
+
+    @Html.LabelFor(model => model.Description, new { @class = "form-control" })
+    @Html.EditorFor(model => model.Description)
+
+    @Html.LabelFor(model => model.LocationId, new { @class = "form-control" })
+    @Html.DropDownList("LocationId")
+
+    <input type="submit" value="Create" class="btn btn-default" />
+}
+
+@Html.ActionLink("Back to List", "Index")

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<CarmenSandiego.Models.Location>
+
+@{
+    ViewData["Title"] = "Location - Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<p>@Html.ActionLink("Add New Location", "Create")</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var listItem in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => listItem.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => listItem.Description)
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id = listItem.ItemId }) |
+                    @Html.ActionLink("Details", "Details", new { id = listItem.ItemId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = listItem.ItemId })
+                </td>*@
+        </tr>
+    }
+</table>
