@@ -1,0 +1,8 @@
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\bin\Debug\netcoreapp1.1\CarmenSandiego.deps.json
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\bin\Debug\netcoreapp1.1\CarmenSandiego.runtimeconfig.json
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\bin\Debug\netcoreapp1.1\CarmenSandiego.runtimeconfig.dev.json
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\bin\Debug\netcoreapp1.1\CarmenSandiego.dll
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.csprojResolveAssemblyReference.cache
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.csproj.CoreCompileInputs.cache
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.AssemblyInfoInputs.cache
+C:\Users\epicodus\Desktop\CarmenSandiego\CarmenSandiego\obj\Debug\netcoreapp1.1\CarmenSandiego.AssemblyInfo.cs
