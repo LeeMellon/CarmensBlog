@@ -38,7 +38,7 @@ namespace CarmenSandiego.Controllers
         public IActionResult Edit(int id)
         {
             var thisPerson = db.People.FirstOrDefault(people => people.PersonId == id);
-            ViewBag.ExperienceList = new SelectList(db.Experiences, "ExperienceId", "Name");
+            ViewBag.ExperienceId = new SelectList(db.Experiences, "ExperienceId", "Name");
             return View(thisPerson);
         }
 
@@ -46,6 +46,7 @@ namespace CarmenSandiego.Controllers
         public IActionResult Edit(Person person)
         {
             db.Entry(person).State = EntityState.Modified;
+
             db.SaveChanges();
             return RedirectToAction("Index");
         }
